@@ -12,7 +12,7 @@ import ModalPaymentConfirm from './components/ModalPaymentConfirm';
 
 function App() {
     const [ selected, setSelected ] = useState(0);
-    const [ isModal, setIsModal ] = useState(true);
+    const [ isModal, setIsModal ] = useState(false);
     
     return (
         <div className="relative flex items-start gap-x-4 texte-white bg-primary min-h-screen">
